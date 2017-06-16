@@ -34,14 +34,14 @@ body {
 .btn-dark {
     border-radius: 0;
     color: #fff;
-    background-color: rgba(0,0,0,0.4);
+    background-color: #072850;
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
     color: #fff;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(7,40,82,0.5);
 }
 
 .btn-light {
@@ -176,10 +176,22 @@ hr.small {
 
 .services {
     padding: 50px 0;
+    background-color: #072850;
 }
 
 .service-item {
     margin-bottom: 30px;
+}
+
+.service-item img{
+    max-width: 90%;
+    margin-top: 20px;
+}
+
+.service-item img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+
 }
 
 /* Callout */
@@ -187,9 +199,10 @@ hr.small {
 .callout {
     display: table;
     width: 100%;
-    height: 400px;
+    height: 450px;
+    padding-top: 50px;
     color: #fff;
-    background: url(../img/surveilance.jpg) no-repeat center center scroll;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(../img/surveilance.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -218,32 +231,18 @@ hr.small {
 
 .call-to-action {
     padding: 50px 0;
+    background-color: #072850;
 }
 
 .call-to-action .btn {
     margin: 10px;
 }
 
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
-}
 
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 #to-top {
