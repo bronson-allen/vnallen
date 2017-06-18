@@ -261,3 +261,25 @@ footer {
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
+
+.about {
+    margin-top: 62px;
+}
+
+.contact{
+    margin-top: 52px;
+}
+
+.full img{
+    width: 100%;
+}
+
+.portfolio-item p{
+    font-size: large;
+    font-weight: bold;
+}
+.portfolio-item img{
+    height: 180px;
+    width: 400px;
+    overflow: hidden;
+}
