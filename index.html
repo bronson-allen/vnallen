@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+    <title>Victor N. Allen</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -54,16 +54,29 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documents <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="docs/HL_2015%20Security%20Risk%20Assessment%20Report.pdf">Risk Assessment</a></li>
-                            <li><a href="docs/Matrix_2017.pdf">Mitigation Matrix</a></li>
-                            <li><a href="docs/SAMPLE_access%20policy.pdf">Access Policy</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Policies & Procedures</a></li>
+                            <li><a href="docs/risk_assessment.pdf">Risk Assessment</a></li>
+                            <li><a href="docs/matrix.pdf">Mitigation Matrix</a></li>
+                            <li><a href="docs/executive_update.pdf">Executive Update</a></li>
+                            <li><a href="docs/mission_vision_values.pdf">Mission Vision Values</a></li>
+                            <li><a href="docs/access_policy.pdf">Access Policy</a></li>
                         </ul>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="contact.html">Contact</a></li>
+                    <!--<li><a href="contact.html">Contact</a></li>-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PPI<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="people.html">People</a></li>
+                            <li><a href="property.html">Property</a></li>
+                            <li><a href="information.html">Information</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="plans.html">Plans</a></li>
+
+                    <li><a href="#footer">Contact</a></li>
+
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -84,7 +97,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1>The Director</h1>
+                    <h1>The Director of Security</h1>
                     <p class="lead">The director of security position plans, directs and
                         coordinates activities relating to the protection,
                         safeguarding and security of company assets,
@@ -109,7 +122,7 @@
     <!-- Services -->
     <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
     <section id="services" class="services bg-primary">
-        <div class="container">
+        <div id="ppi" class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
                     <h2>PPI Services</h2>
@@ -118,32 +131,32 @@
 
                         <div class="col-md-4 col-sm-4">
                             <div class="service-item">
-                                <img src="img/people.jpg">
+                                <a href="people.html"><img src="img/people.jpg"></a>
                                 <h4>
                                     <strong>People</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>Your company is built on a foundation of people. Protect them. </p>
+                                <a href="people.html" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4">
                             <div class="service-item">
-                                <img src="img/property.jpg">
+                                <a href="property.html"><img src="img/property.jpg"></a>
                                 <h4>
                                     <strong>Property</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>Protect the assets that matter most to your business.</p>
+                                <a href="property.html" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4">
                             <div class="service-item">
-                                <img src="img/information.jpg">
+                                <a href="information.html"><img src="img/information.jpg"></a>
                                 <h4>
                                     <strong>Information</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>Information is powerful and should be protected from prying eyes. </p>
+                                <a href="information.html" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -178,7 +191,7 @@
                         <div class="col-md-3">
                             <div class="portfolio-item">
                                 <p>Basic</p>
-                                <a href="#">
+                                <a href="plans.html#basic">
                                     <img class="img-portfolio img-responsive" src="img/basic_security.jpg">
                                 </a>
                             </div>
@@ -186,7 +199,7 @@
                         <div class="col-md-3">
                             <div class="portfolio-item">
                                 <p>Intermediate</p>
-                                <a href="#">
+                                <a href="plans.html#intermediate">
                                     <img class="img-portfolio img-responsive" src="img/cyber_security.jpg">
                                 </a>
                             </div>
@@ -194,7 +207,7 @@
                         <div class="col-md-3">
                             <div class="portfolio-item">
                                 <p>Advanced</p>
-                                <a href="#">
+                                <a href="plans.html#advanced">
                                     <img class="img-portfolio img-responsive" src="img/security-cameras.jpg">
                                 </a>
                             </div>
@@ -202,14 +215,14 @@
                         <div class="col-md-3">
                             <div class="portfolio-item">
                                 <p>Comprehensive</p>
-                                <a href="#">
+                                <a href="plans.html#comprehensive">
                                     <img class="img-portfolio img-responsive" src="img/security-team.jpg">
                                 </a>
                             </div>
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">More Info</a>
+                    <a href="plans.html" class="btn btn-dark">More Info</a>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -223,7 +236,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-
+                    <h1>Governance</h1>
+                    <hr class="small">
+                    <h3>Regulatory, government and
+                        association standards and guidelines I have
+                        used to provide a foundation for developing
+                        organization specific security plans.</h3>
+                    <a href="governance.html" class="btn btn-light">Learn More</a>
                 </div>
             </div>
         </div>
@@ -231,7 +250,7 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container">
+        <div id="footer" class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h4><strong>Victor N. Allen</strong>
@@ -244,17 +263,11 @@
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                            <a href="https://www.linkedin.com/in/victor-n-allen-1261561/"><i class="fa fa-linkedin-square fa-fw fa-3x"></i></a>
                         </li>
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; <a href="http://www.bronsonzallen.com">bronsonzallen.com</a> 2017</p>
+                    <p class="text-muted">Website Copyright &copy; <a href="http://www.bronsonzallen.com">bronsonzallen.com</a> 2017</p>
                 </div>
             </div>
         </div>
