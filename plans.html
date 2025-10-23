@@ -1,131 +1,419 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Security Plans - Victor N. Allen Security Professional"
+    />
+    <meta name="author" content="Victor N. Allen" />
+    <meta
+      name="keywords"
+      content="security plans, physical security, risk assessment, security standards"
+    />
 
-    <title>Victor N. Allen</title>
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <title>Security Plans - Victor N. Allen</title>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Modern CSS Framework -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/modern-portfolio.css" rel="stylesheet" />
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Modern Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+          <i class="fas fa-shield-alt me-2"></i>Victor N. Allen
+        </a>
 
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <![endif]-->
-</head>
-<body>
-
-<!-- Navigation -->
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">VNALLEN</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="documentsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Documents
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="documentsDropdown">
+                <li>
+                  <a class="dropdown-item" href="docs/risk_assessment.pdf"
+                    ><i class="fas fa-file-pdf me-2"></i>Risk Assessment</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="docs/matrix.pdf"
+                    ><i class="fas fa-file-pdf me-2"></i>Mitigation Matrix</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="docs/executive_update.pdf"
+                    ><i class="fas fa-file-pdf me-2"></i>Executive Update</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="docs/mission_vision_values.pdf"
+                    ><i class="fas fa-file-pdf me-2"></i>Mission Vision
+                    Values</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="docs/access_policy.pdf"
+                    ><i class="fas fa-file-pdf me-2"></i>Access Policy</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="servicesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li>
+                  <a class="dropdown-item" href="people.html"
+                    ><i class="fas fa-users me-2"></i>People Protection</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="property.html"
+                    ><i class="fas fa-building me-2"></i>Property Security</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="information.html"
+                    ><i class="fas fa-lock me-2"></i>Information Security</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="plans.html">Security Plans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="governance.html">Governance</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Portfolio <span class="sr-only">(current)</span></a></li>
-                <li><a href="about.html">About</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documents <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="docs/risk_assessment.pdf">Risk Assessment</a></li>
-                        <li><a href="docs/matrix.pdf">Mitigation Matrix</a></li>
-                        <li><a href="docs/executive_update.pdf">Executive Update</a></li>
-                        <li><a href="docs/mission_vision_values.pdf">Mission Vision Values</a></li>
-                        <li><a href="docs/access_policy.pdf">Access Policy</a></li>
+    <!-- Hero Section -->
+    <section class="hero-section" style="padding-top: 80px; min-height: 60vh">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="row min-vh-50 align-items-center">
+          <div class="col-lg-8 mx-auto text-center">
+            <div class="hero-content">
+              <h1 class="hero-title">Security Plans</h1>
+              <p class="hero-subtitle">Comprehensive Security Solutions</p>
+              <p class="hero-description">
+                Tailored security plans designed to meet your organization's
+                specific needs
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <!-- Basic Security Plan -->
+            <div class="card shadow-sm mb-5" id="basic">
+              <div class="card-header bg-primary text-white">
+                <h3 class="card-title mb-0">
+                  <i class="fas fa-shield-alt me-2"></i>Basic Security Plan
+                </h3>
+              </div>
+              <div class="card-body p-4">
+                <h5 class="text-primary mb-3">
+                  Establish Physical Security Mission
+                </h5>
+                <ul class="list-unstyled">
+                  <li class="mb-3">
+                    <i class="fas fa-check-circle text-success me-2"></i>
+                    Development of a comprehensive physical security plan
+                    outline that directly aligns with the organizational
+                    mission.
+                  </li>
+                  <li class="mb-3">
+                    <i class="fas fa-check-circle text-success me-2"></i>
+                    Develop a physical security profile that wholly supports
+                    COMPANY mission. We will maintain industry best practices
+                    that provide awareness to personnel at all locations through
+                    the development of standards, policies, and processes that
+                    improve the physical security health of our campuses.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Intermediate Security Plan -->
+            <div class="card shadow-sm mb-5" id="intermediate">
+              <div class="card-header bg-primary text-white">
+                <h3 class="card-title mb-0">
+                  <i class="fas fa-users me-2"></i>Intermediate Security Plan
+                </h3>
+              </div>
+              <div class="card-body p-4">
+                <h5 class="text-primary mb-3">Full Stakeholder Engagement</h5>
+                <ul class="list-unstyled">
+                  <li class="mb-3">
+                    <i class="fas fa-check-circle text-success me-2"></i>
+                    Involve stakeholders from key areas within the organization
+                    (legal, facilities, risk, compliance, etc.) and provide them
+                    with a detailed overview and direction for the physical
+                    security posture that we intend to establish and maintain.
+                  </li>
+                  <li class="mb-3">
+                    <i class="fas fa-check-circle text-success me-2"></i>
+                    Guide these stakeholders through the high level physical
+                    security plan in order to solicit a clear understanding of,
+                    and ultimately agreed upon, appropriate campus physical
+                    security strategies and implementations.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Advanced Security Plan -->
+            <div class="card shadow-sm mb-5" id="advanced">
+              <div class="card-header bg-primary text-white">
+                <h3 class="card-title mb-0">
+                  <i class="fas fa-search me-2"></i>Advanced Security Plan
+                </h3>
+              </div>
+              <div class="card-body p-4">
+                <h5 class="text-primary mb-3">Physical Security Assessment</h5>
+                <ul class="list-unstyled">
+                  <li class="mb-3">
+                    <i class="fas fa-check-circle text-success me-2"></i>
+                    Develop a comprehensive assessment tool that encompasses
+                    best practices and accommodates the unique qualities of the
+                    facilities and communities we serve.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Comprehensive Security Plan -->
+            <div class="card shadow-sm mb-5" id="comprehensive">
+              <div class="card-header bg-primary text-white">
+                <h3 class="card-title mb-0">
+                  <i class="fas fa-cogs me-2"></i>Comprehensive Security Plan
+                </h3>
+              </div>
+              <div class="card-body p-4">
+                <div class="row g-4">
+                  <div class="col-lg-6">
+                    <h5 class="text-primary mb-3">
+                      Physical Security Standards
+                    </h5>
+                    <ul class="list-unstyled">
+                      <li class="mb-3">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        Standards all meet or exceed regulatory requirements
+                        (e.g. The Joint Commission, The Cleary Act and NERC &
+                        FERC).
+                      </li>
                     </ul>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PPI<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="people.html">People</a></li>
-                        <li><a href="property.html">Property</a></li>
-                        <li><a href="information.html">Information</a></li>
+                  </div>
+                  <div class="col-lg-6">
+                    <h5 class="text-primary mb-3">
+                      Matrix/Mitigation Strategy
+                    </h5>
+                    <ul class="list-unstyled">
+                      <li class="mb-3">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        Provide a high level overview of our current physical
+                        security threat, vulnerability, and risk posture.
+                      </li>
                     </ul>
-                </li>
+                  </div>
+                </div>
 
-                <li><a href="plans.html">Plans</a></li>
-                <li><a href="index.html#footer">Contact</a></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
+                <div class="row g-4 mt-4">
+                  <div class="col-lg-6">
+                    <h5 class="text-primary mb-3">
+                      Develop Repeatable and Sustainable Processes
+                    </h5>
+                    <ul class="list-unstyled">
+                      <li class="mb-3">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        Enable consistency at all of our locations.
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <h5 class="text-primary mb-3">Require Regular Review</h5>
+                    <ul class="list-unstyled">
+                      <li class="mb-3">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        Physical Security process that is regularly reviewed to
+                        ensure that our level of service is appropriately
+                        maintained.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div class="about container">
-    <div class="row text-center lead">
-        <h1>Security Plans</h1>
-    </div>
-    <div class="row lead">
-        <h1 id="basic">Basic Security</h1>
-        <ul>
-            <li><strong>Establish Physical Security Mission</strong></li>
-            <li>Development of a comprehensive physical security plan outline that directly aligns with the organizational mission.</li>
-            <li>Develop a physical security profile that wholly supports COMPANY mission.  We will maintain industry best practices that provide awareness to personnel at all locations through the development of standards, policies, and processes that improve the physical security health of our campuses.</li>
-        </ul>
-    </div>
-    <div id="intermediate" class="row lead">
-        <h1>Intermediate Security</h1>
-        <ul>
-            <li><strong>Full Stake Holder engagement</strong></li>
-            <li>Involve stake holders from key areas within the organization (legal, facilities, risk , compliance, etc.) and provide them with a detailed overview and direction for the physical security posture that we intend to establish and maintain.</li>
-            <li>Guide these stake holders through the high level physical security plan in order to solicit a clear understanding of, and ultimately agreed upon, appropriate campus physical security strategies and implementations. </li>
-        </ul>
-    </div>
-    <div class="row lead">
-        <h1 id="advanced">Advanced Security</h1>
-        <ul>
-            <li><strong>Physical Security assessment</strong></li>
-            <li>Develop a comprehensive assessment tool that encompasses best practices and accommodates the unique qualities of the facilities and communities we serve.</li>
-        </ul>
-    </div>
-    <div class="row lead">
-        <h1 id="comprehensive">Comprehensive Security</h1>
-        <ul>
-            <li><strong>the Physical Security Standards</strong></li>
-            <li>Standards all meet or exceed regulatory requirements (e.g. The Joint Commission, The Cleary Act and NERC & FERC.</li>
-            <li><strong>Matrix/Mitigation Strategy</strong></li>
-            <li>Provide a high level overview of our current physical security threat, vulnerability, and risk posture.</li>
-            <li><strong>Develop Repeatable and Sustainable Processes</strong></li>
-            <li>Enable consistency at all of our locations.</li>
-            <li><strong>Require Regular Review</strong></li>
-            <li>Physical Security process that is regularly reviewed to ensure that our level of service is appropriately maintained.</li>
-        </ul>
-    </div>
-    <!-- /.row -->
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-title text-white">
+              Ready to Secure Your Organization?
+            </h2>
+            <div class="title-underline" style="background: white"></div>
+            <p class="lead">
+              Contact us to discuss which security plan best fits your
+              organization's needs.
+            </p>
+            <a href="index.html#contact" class="btn btn-light btn-lg"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
 
-</div>
-<!-- /.container -->
+    <!-- Footer -->
+    <footer class="footer-section bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h3 class="footer-title">Victor N. Allen</h3>
+            <p class="footer-subtitle">Security Professional</p>
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+18586688533" class="contact-link"
+                  >(858) 668-8533</a
+                >
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-envelope me-2"></i>
+                <a href="mailto:peacekeeper415@hotmail.com" class="contact-link"
+                  >peacekeeper415@hotmail.com</a
+                >
+              </div>
+            </div>
+            <div class="social-links mt-4">
+              <a
+                href="https://www.linkedin.com/in/victor-n-allen-1261561/"
+                class="social-link"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+            </div>
+            <hr class="my-4" />
+            <p class="footer-copyright">
+              &copy; 2025 Victor N. Allen. All rights reserved. | Website by
+              <a href="http://www.bronsonzallen.com" class="text-light"
+                >bronsonzallen.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-</body>
+    <!-- Bootstrap 5 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Navbar background change on scroll
+      const navbar = document.querySelector(".navbar");
+      window.addEventListener("scroll", function () {
+        if (window.scrollY > 50) {
+          navbar.classList.add("navbar-scrolled");
+        } else {
+          navbar.classList.remove("navbar-scrolled");
+        }
+      });
+    </script>
+  </body>
 </html>

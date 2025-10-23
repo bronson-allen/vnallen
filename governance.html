@@ -1,137 +1,533 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Governance Standards - Victor N. Allen Security Professional"
+    />
+    <meta name="author" content="Victor N. Allen" />
+    <meta
+      name="keywords"
+      content="governance, security standards, compliance, regulatory requirements"
+    />
 
-    <title>Victor N. Allen</title>
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <title>Governance - Victor N. Allen</title>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Modern CSS Framework -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/modern-portfolio.css" rel="stylesheet" />
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Modern Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Crimson+Text:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+          <i class="fas fa-shield-alt me-2"></i>Victor N. Allen
+        </a>
 
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <![endif]-->
-</head>
-<body>
-
-<!-- Navigation -->
-<nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">VNALLEN</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="documentsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Documents
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="documentsDropdown">
+                <li>
+                  <a class="dropdown-item" href="docs/risk_assessment.pdf"
+                    ><i class="fas fa-file-pdf me-2"></i>Risk Assessment</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="docs/matrix.pdf"
+                    ><i class="fas fa-file-pdf me-2"></i>Mitigation Matrix</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="docs/executive_update.pdf"
+                    ><i class="fas fa-file-pdf me-2"></i>Executive Update</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="docs/mission_vision_values.pdf"
+                    ><i class="fas fa-file-pdf me-2"></i>Mission Vision
+                    Values</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="docs/access_policy.pdf"
+                    ><i class="fas fa-file-pdf me-2"></i>Access Policy</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="servicesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li>
+                  <a class="dropdown-item" href="people.html"
+                    ><i class="fas fa-users me-2"></i>People Protection</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="property.html"
+                    ><i class="fas fa-building me-2"></i>Property Security</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="information.html"
+                    ><i class="fas fa-lock me-2"></i>Information Security</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="plans.html">Security Plans</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="governance.html">Governance</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Portfolio <span class="sr-only">(current)</span></a></li>
-                <li><a href="about.html">About</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documents <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="docs/risk_assessment.pdf">Risk Assessment</a></li>
-                        <li><a href="docs/matrix.pdf">Mitigation Matrix</a></li>
-                        <li><a href="docs/executive_update.pdf">Executive Update</a></li>
-                        <li><a href="docs/mission_vision_values.pdf">Mission Vision Values</a></li>
-                        <li><a href="docs/access_policy.pdf">Access Policy</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PPI<span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="people.html">People</a></li>
-                        <li><a href="property.html">Property</a></li>
-                        <li><a href="information.html">Information</a></li>
-                    </ul>
-                </li>
+    <!-- Hero Section -->
+    <section class="hero-section" style="padding-top: 80px; min-height: 60vh">
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="row min-vh-50 align-items-center">
+          <div class="col-lg-8 mx-auto text-center">
+            <div class="hero-content">
+              <h1 class="hero-title">Governance</h1>
+              <p class="hero-subtitle">Regulatory Standards & Guidelines</p>
+              <p class="hero-description">
+                Regulatory, government and association standards that provide
+                the foundation for developing organization-specific security
+                plans
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                <li><a href="plans.html">Plans</a></li>
-                <li><a href="index.html#footer">Contact</a></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
+    <!-- Main Content -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <!-- The Joint Commission -->
+            <div class="card shadow-sm mb-5">
+              <div class="card-header bg-primary text-white">
+                <h3 class="card-title mb-0">
+                  <i class="fas fa-hospital me-2"></i>The Joint Commission (TJC)
+                </h3>
+              </div>
+              <div class="card-body p-4">
+                <p class="lead mb-4">
+                  Joint Commission standards are the basis of an objective
+                  evaluation process that can help health care organizations
+                  measure, assess and improve performance. The standards focus
+                  on important patient, individual, or resident care and
+                  organization functions that are essential to providing safe,
+                  high quality care.
+                </p>
+                <div class="row g-3">
+                  <div class="col-md-3">
+                    <div class="text-center">
+                      <div
+                        class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-2"
+                        style="width: 60px; height: 60px"
+                      >
+                        <i class="fas fa-user-tie"></i>
+                      </div>
+                      <h6>Leadership (LD)</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="text-center">
+                      <div
+                        class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-2"
+                        style="width: 60px; height: 60px"
+                      >
+                        <i class="fas fa-fire-extinguisher"></i>
+                      </div>
+                      <h6>Life Safety (LS)</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="text-center">
+                      <div
+                        class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-2"
+                        style="width: 60px; height: 60px"
+                      >
+                        <i class="fas fa-building"></i>
+                      </div>
+                      <h6>Environment of Care (EC)</h6>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="text-center">
+                      <div
+                        class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-2"
+                        style="width: 60px; height: 60px"
+                      >
+                        <i class="fas fa-exclamation-triangle"></i>
+                      </div>
+                      <h6>Emergency Management (EM)</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-<div class="about container">
-    <div class="row text-center lead">
-        <h1>Governance</h1>
-    </div>
-    <div class="row lead">
-        <h1>The Joint Commission TJC</h1>
-        <ul>
-            <li>Joint Commission standards are the basis of an objective evaluation process that can help health care organizations measure, assess and improve performance. The standards focus on important patient, individual, or resident care and organization functions that are essential to providing safe, high quality care.
-            </li>
-            <li>Leadership (LD)</li>
-            <li>Life Safety (LS)</li>
-            <li>Environment of Care (EC)</li>
-            <li>Emergency Management (EM)</li>
-        </ul>
-    </div>
-    <!-- /.row -->
-    <div class="row lead">
-        <h1>The Cleary Act</h1>
-        <ul>
-            <li>In 1990, Congress enacted the Crime Awareness and Campus Security Act of 1990 (Title II of Public Law 101-542), which amended the Higher Education Act of 1965 (HEA). This act required all post-secondary institutions participating in HEA’s Title IV student financial assistance programs to disclose campus crime statistics and security information. The act was amended in 1992, 1998, 2000 and 2008. The 1998 amendments renamed the law the Jeanne Cleary Disclosure of Campus Security Policy and Campus Crime Statistics Act in memory of a student who was slain in her dorm room in 1986. It is generally referred to as the Cleary Act and is in section 485(f) of the HEA.
-            </li>
-            <li><a href="https://www2.ed.gov/admins/lead/safety/handbook.pdf">www2.ed.gov/admins/lead/safety/handbook.pdf</a></li>
-        </ul>
-    </div>
-    <div class="row lead">
-        <h1>ASIS Guidelines</h1>
-        <ul>
-            <li>ASIS Guidelines provides Physical Security Professionals with a comprehensive selection of documents;</li>
-            <li>This is in response to a concerted need for guidelines regarding security issues in the United States</li>
-            <li>By addressing specific concerns and issues inherent to security professionals, security guidelines will better serve the needs of security professionals by increasing the effectiveness and productivity of security practices and solutions, as well as enhance the professionalism of the industry</li>
-        </ul>
-    </div>
-    <div class="row lead">
-        <h1>ASIS Standards</h1>
-        <ul>
-            <li>ASIS Standard and Guideline publications are developed through a voluntary consensus standards development process.  This process brings together volunteers and /or seeks out the views of persons who have an interest in the topic covered by the publication.</li>
-            <li>These Standards provide current processes that support appropriate awareness, prevention, preparation, and response to changes in threat conditions.</li>
-            <li>Standards are structured at a high level, although specific considerations and responses are also addressed for consideration by individual organization based on identifiable risk and requirements</li>
-        </ul>
-    </div>
-    <div class="row lead">
-        <h1>NERC & FERC</h1>
-        <ul>
-            <li>On the federal level, 2016 has seen the release of updated Critical Infrastructure Protection (CIP) requirements by the North American Electric Reliability Corporation (NERC), the non-profit empowered by the Federal Energy Regulatory Commission (FERC) with authority to oversee grid security.  The CIP plan is a set of nine standards and some 45 requirements that cover a broad variety of cybersecurity protocols.  Under the CIP plan, utilities are required to identify critical cyber assets and ensure they are protected by electronic security measures, such as encryption and two-factor authentication.  They must develop plans for incident reporting and recovery, and train personnel on response plans.  The CIP standards even govern physical security measures, such as security guards and visitor logs.
-            </li>
-        </ul>
-    </div>
+            <!-- The Cleary Act -->
+            <div class="card shadow-sm mb-5">
+              <div class="card-header bg-primary text-white">
+                <h3 class="card-title mb-0">
+                  <i class="fas fa-graduation-cap me-2"></i>The Cleary Act
+                </h3>
+              </div>
+              <div class="card-body p-4">
+                <p class="lead mb-4">
+                  In 1990, Congress enacted the Crime Awareness and Campus
+                  Security Act of 1990 (Title II of Public Law 101-542), which
+                  amended the Higher Education Act of 1965 (HEA). This act
+                  required all post-secondary institutions participating in
+                  HEA's Title IV student financial assistance programs to
+                  disclose campus crime statistics and security information. The
+                  act was amended in 1992, 1998, 2000 and 2008. The 1998
+                  amendments renamed the law the Jeanne Cleary Disclosure of
+                  Campus Security Policy and Campus Crime Statistics Act in
+                  memory of a student who was slain in her dorm room in 1986. It
+                  is generally referred to as the Cleary Act and is in section
+                  485(f) of the HEA.
+                </p>
+                <div class="text-center">
+                  <a
+                    href="https://www2.ed.gov/admins/lead/safety/handbook.pdf"
+                    class="btn btn-outline-primary"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <i class="fas fa-external-link-alt me-2"></i>View Handbook
+                  </a>
+                </div>
+              </div>
+            </div>
 
-</div>
-    <!-- /.container -->
+            <!-- ASIS Guidelines -->
+            <div class="card shadow-sm mb-5">
+              <div class="card-header bg-primary text-white">
+                <h3 class="card-title mb-0">
+                  <i class="fas fa-clipboard-list me-2"></i>ASIS Guidelines
+                </h3>
+              </div>
+              <div class="card-body p-4">
+                <div class="row g-4">
+                  <div class="col-lg-4">
+                    <div class="text-center">
+                      <div
+                        class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+                        style="width: 80px; height: 80px"
+                      >
+                        <i class="fas fa-file-alt fa-lg"></i>
+                      </div>
+                      <h5>Comprehensive Documents</h5>
+                      <p class="text-muted">
+                        ASIS Guidelines provides Physical Security Professionals
+                        with a comprehensive selection of documents
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="text-center">
+                      <div
+                        class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+                        style="width: 80px; height: 80px"
+                      >
+                        <i class="fas fa-flag-usa fa-lg"></i>
+                      </div>
+                      <h5>US Security Focus</h5>
+                      <p class="text-muted">
+                        This is in response to a concerted need for guidelines
+                        regarding security issues in the United States
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="text-center">
+                      <div
+                        class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+                        style="width: 80px; height: 80px"
+                      >
+                        <i class="fas fa-users-cog fa-lg"></i>
+                      </div>
+                      <h5>Professional Enhancement</h5>
+                      <p class="text-muted">
+                        By addressing specific concerns and issues inherent to
+                        security professionals, security guidelines will better
+                        serve the needs of security professionals by increasing
+                        the effectiveness and productivity of security practices
+                        and solutions, as well as enhance the professionalism of
+                        the industry
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-</body>
+            <!-- ASIS Standards -->
+            <div class="card shadow-sm mb-5">
+              <div class="card-header bg-primary text-white">
+                <h3 class="card-title mb-0">
+                  <i class="fas fa-certificate me-2"></i>ASIS Standards
+                </h3>
+              </div>
+              <div class="card-body p-4">
+                <div class="row g-4">
+                  <div class="col-lg-6">
+                    <h5 class="text-primary mb-3">
+                      Voluntary Consensus Process
+                    </h5>
+                    <p>
+                      ASIS Standard and Guideline publications are developed
+                      through a voluntary consensus standards development
+                      process. This process brings together volunteers and/or
+                      seeks out the views of persons who have an interest in the
+                      topic covered by the publication.
+                    </p>
+                  </div>
+                  <div class="col-lg-6">
+                    <h5 class="text-primary mb-3">Current Processes</h5>
+                    <p>
+                      These Standards provide current processes that support
+                      appropriate awareness, prevention, preparation, and
+                      response to changes in threat conditions.
+                    </p>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-lg-12">
+                    <h5 class="text-primary mb-3">High-Level Structure</h5>
+                    <p>
+                      Standards are structured at a high level, although
+                      specific considerations and responses are also addressed
+                      for consideration by individual organization based on
+                      identifiable risk and requirements.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- NERC & FERC -->
+            <div class="card shadow-sm mb-5">
+              <div class="card-header bg-primary text-white">
+                <h3 class="card-title mb-0">
+                  <i class="fas fa-bolt me-2"></i>NERC & FERC
+                </h3>
+              </div>
+              <div class="card-body p-4">
+                <p class="lead mb-4">
+                  On the federal level, 2016 has seen the release of updated
+                  Critical Infrastructure Protection (CIP) requirements by the
+                  North American Electric Reliability Corporation (NERC), the
+                  non-profit empowered by the Federal Energy Regulatory
+                  Commission (FERC) with authority to oversee grid security.
+                </p>
+                <div class="row g-4">
+                  <div class="col-lg-6">
+                    <h5 class="text-primary mb-3">CIP Standards</h5>
+                    <p>
+                      The CIP plan is a set of nine standards and some 45
+                      requirements that cover a broad variety of cybersecurity
+                      protocols.
+                    </p>
+                  </div>
+                  <div class="col-lg-6">
+                    <h5 class="text-primary mb-3">Security Requirements</h5>
+                    <p>
+                      Under the CIP plan, utilities are required to identify
+                      critical cyber assets and ensure they are protected by
+                      electronic security measures, such as encryption and
+                      two-factor authentication.
+                    </p>
+                  </div>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-lg-12">
+                    <h5 class="text-primary mb-3">Comprehensive Coverage</h5>
+                    <p>
+                      They must develop plans for incident reporting and
+                      recovery, and train personnel on response plans. The CIP
+                      standards even govern physical security measures, such as
+                      security guards and visitor logs.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-title text-white">
+              Compliance & Standards Expertise
+            </h2>
+            <div class="title-underline" style="background: white"></div>
+            <p class="lead">
+              Contact us to ensure your security plans meet all regulatory
+              requirements and industry standards.
+            </p>
+            <a href="index.html#contact" class="btn btn-light btn-lg"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-section bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h3 class="footer-title">Victor N. Allen</h3>
+            <p class="footer-subtitle">Security Professional</p>
+            <div class="contact-info">
+              <div class="contact-item">
+                <i class="fas fa-phone me-2"></i>
+                <a href="tel:+18586688533" class="contact-link"
+                  >(858) 668-8533</a
+                >
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-envelope me-2"></i>
+                <a href="mailto:peacekeeper415@hotmail.com" class="contact-link"
+                  >peacekeeper415@hotmail.com</a
+                >
+              </div>
+            </div>
+            <div class="social-links mt-4">
+              <a
+                href="https://www.linkedin.com/in/victor-n-allen-1261561/"
+                class="social-link"
+                target="_blank"
+                rel="noopener"
+              >
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+            </div>
+            <hr class="my-4" />
+            <p class="footer-copyright">
+              &copy; 2025 Victor N. Allen. All rights reserved. | Website by
+              <a href="http://www.bronsonzallen.com" class="text-light"
+                >bronsonzallen.com</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script>
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Navbar background change on scroll
+      const navbar = document.querySelector(".navbar");
+      window.addEventListener("scroll", function () {
+        if (window.scrollY > 50) {
+          navbar.classList.add("navbar-scrolled");
+        } else {
+          navbar.classList.remove("navbar-scrolled");
+        }
+      });
+    </script>
+  </body>
 </html>
