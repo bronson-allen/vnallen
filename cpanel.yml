@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bronson1/public_html/peacekeeper415.com/
+    - /bin/cp -R public/* $DEPLOYPATH
